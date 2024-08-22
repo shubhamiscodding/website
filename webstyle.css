@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+
+.navbar{
+    height: 60px;
+    background-color: rgb(39, 7, 56);
+    display: flex;
+    flex-direction: row;
+    color: rgb(231, 231, 113);
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+/**box1**/
+.logo{
+    background-image: url(logo.png);
+    height: 50px;
+    width: 110px;
+    background-size: cover;
+    background-position: center,top;
+}
+.border{
+    border: 1px solid transparent;
+    height: 50px;
+    width: 110px;
+}
+.border:hover{
+    border: 1px solid black; 
+}
+/**box2**/
+.navadd{
+    margin: 5px;
+    align-items: center;
+}
+.icon{
+    color: whitesmoke;
+    font-size: 1rem;
+}
+/**box3**/
+.navsearch{
+    display: flex;
+    justify-content: space-evenly;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: aqua;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: noun;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: noun;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    background-color: gold;
+    border-top-right-radius:4px ;
+    border-bottom-right-radius:4px ;
+    color: #0f1111;
+}
+.navsearch:hover{
+    border:2px solid orange
+}
+/**box4**/
+span{
+    font-size: 0.7rem;
+}
+.navsecond{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+/**box6**/
+.nav-cart i{
+     font-size: 35px;
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 800;
+}
+/* panel */
+.panel{
+    height: 40px;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    color: aquamarine;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-opt p{
+    display: inline;
+    margin-left: 10px; ;
+}
+.panel-opt{
+    width: 65%;
+    font-size: 0.85rem;
+}
+.panel-deal{
+    font-size: 0.90rem;
+}
+/* main page */
+.main{
+    background-image: url(AHOME,JPG.jpg);
+    display: flex;
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(42, 12, 17);
+    color: black;
+    justify-content: space-evenly;
+    align-items: center;
+}
+/* borderr */
+.borderr{
+    border:2px solid;
+    height: 300px;
+    width: 22%;
+    margin-top: 190px;
+    background-color: blanchedalmond;
+    padding: 20px 0px 15px;
+
+}
+.borderr:hover{
+    border: 1.5px solid yellowgreen;
+}
+.healthimg{
+    background-image: url(care.png);
+    height: 90%;
+    background-size: cover;
+    margin: 5px;
+    align-items: center;
+    justify-content: space-evenly;
+    background-repeat: no-repeat;
+}
+.healthimg button{
+    size: 5px;
+    margin-top: 80%;
+    background-color: blanchedalmond;
+}
+
+.lookimg{
+    background-image: url(s.png);
+    height: 90%;
+    background-size: cover;
+    margin: 5px;
+    align-items: center;
+    justify-content: space-evenly;
+    background-repeat: no-repeat;
+}
+.lookimg button{
+    background-color: blanchedalmond;
+    size: 5px;
+    margin-top: 80%;
+}
+.gameimg{
+    background-image: url(game.png);
+    height: 90%;
+    background-size: cover;
+    margin: 5px;
+    align-items: center;
+    justify-content: space-evenly;
+    background-repeat: no-repeat;
+}
+.gameimg button{
+    size: 5px;
+    margin-top: 80%;
+    background-color: blanchedalmond;
+}
+.bookimg{
+    background-image: url(book.png);
+    height: 90%;
+    background-size: cover;
+    margin: 5px;
+    align-items: center;
+    justify-content: space-evenly;
+    background-repeat: no-repeat;
+}
+.bookimg button{
+    size: 5px;
+    margin-top: 80%;
+    background-color: blanchedalmond;
+}
+.footpanel{
+    background-color: #181c1c;
+    display: flex;
+    height: 35px;
+    margin-left: 45%;
+    margin-right: 40%;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    color: #f3f3f3;
+}
+.end{
+    height: 352px;
+    background-color: rgb(39, 7, 56);
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    color: whitesmoke;
+}
+
+.endd{
+    display: flex;
+    margin-top: 70px;
+}
+.endd ul p{
+    font-size: 40px;
+}
+.panel3{
+    background-color:  #181c1c;
+    height: 50px;
+    display: flex;
+}
+.logo2{
+    background-image: url(logo.png);
+    height: 50px;
+    width: 110px;
+    background-size: cover;
+    align-items: center;
+    justify-items: center;
+    margin-left: 50%;
+}
